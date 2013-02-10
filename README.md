@@ -1,24 +1,28 @@
 # XkcdPassword
 
-TODO: Write a gem description
+Commnd line tool for generating XKCD style passwords
+
+http://xkcd.com/936/
+
+The comic mentions a single common word should have 11 bits of entropy so a word list of around 2000 is required.
+
+The packaged word file is from http://www.ingilish.com/2000mostcommonwords.htm with the additions of "battery" and "staple" of course.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'xkcd_password'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install xkcd_password
+This toy project has not been submitted to rubygems.org so clone from github.
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+$ xkcd_password
+```
+
+## Run the tests
+
+```
+$ rspec
+```
 
 ## Contributing
 
